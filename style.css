@@ -54,16 +54,19 @@ body{
 
 }
 /* main section related styles  */
-main {
-    max-width: 1140px;
-    margin: 0 auto;
-}
+
 
 main section {
-    margin-top: 130px;
+    margin-top: 100px;
 }
 
 /* Featured-Flowers related styles */
+
+.Featured-Flowers-section{
+    max-width: 1140px;
+    margin: 0 auto; 
+}
+
 
 .Featured-Flowers-titel{
     color: #272727;
@@ -76,7 +79,6 @@ main section {
 .Featured-Flowers-description{
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
-    font-family: Lato;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
@@ -142,6 +144,8 @@ main section {
 /* option-secton related styles */
 
 .option-secton{
+    max-width: 1140px;
+    margin: 0 auto; 
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -159,4 +163,38 @@ main section {
     font-weight: 600;
     line-height: 35px;
 }
+
+/* Sale-Up-section related styles  */
+
+.Sale-Up-section{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 250px;
+    align-items: center;
+   background: rgba(229, 84, 115, 0.05);
+}
+.Sale-Up-conten{
+    width: 57%;
+   text-align: center;
+}
+.Sale-Up-titel{
+    color: #272727;
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+.Sale-Up-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 25px;
+    margin-bottom: 25px;
+}
+.Sale-Up-pic img{
+    width: 280px;
+    height: 320px;  
+}
+
 
