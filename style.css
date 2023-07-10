@@ -53,7 +53,7 @@ body{
 
 
 }
-/* main section styles */
+/* main section related styles  */
 main {
     max-width: 1140px;
     margin: 0 auto;
@@ -62,6 +62,9 @@ main {
 main section {
     margin-top: 130px;
 }
+
+/* Featured-Flowers related styles */
+
 .Featured-Flowers-titel{
     color: #272727;
     text-align: center;
@@ -135,5 +138,25 @@ main section {
     line-height: 35px;
     margin-top: 15px;
     text-decoration-line: underline;
+}
+/* option-secton related styles */
+
+.option-secton{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    width: 1140px;
+    height: 200px;
+}
+.icon {
+    text-align: center;
+}
+.icon p{
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 35px;
 }
 
