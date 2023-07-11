@@ -231,12 +231,6 @@ span{
     
 }
 
-<<<<<<< HEAD
-/* Latest-Deals-section related styles  */
-=======
-/* .Latest-Deals-section related styles  */
->>>>>>> 79056937600249ef8bc866fd5eb04b2f8abfa718
-
 .Latest-Deals-section{
     background: url("./images/Rectangle\ 9.png") center center;
     background-size: cover;
@@ -314,44 +308,6 @@ input[type="email"]{
     
 }
 
-/* footer-section related styles  */
-
-.footer-section{
-    background: #111010;
-    width: 100%;
-    height: 300px;
-    margin-top: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.footer-titel{
-    color: #ddd;
-    font-size: 40px;
-    font-weight: 800;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-
-.footer-description{
-    color: rgba(255, 255, 255, 0.90);
-    text-align: center;
-    font-size: 18px;
-    line-height: 30px;
-}
-
-
-.copy{
-    color: rgba(255, 255, 255, 0.40);
-    text-align: center;
-    font-size: 16px;
-    font-weight: 400;
-    margin-top: 30px;
-    
-}
-
 /* flowers-like related styles  */
 
 
@@ -391,6 +347,45 @@ input[type="email"]{
     max-width: 500px;
     height: 300px;
 }
+
+/* footer-section related styles  */
+
+.footer-section{
+    background: #111010;
+    width: 100%;
+    height: 300px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-titel{
+    color: #ddd;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.footer-description{
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+
+.copy{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 30px;
+    
+}
+
 
 
 
