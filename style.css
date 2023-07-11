@@ -184,6 +184,9 @@ main section {
     font-weight: 800;
     margin-bottom: 15px;
 }
+span{
+    color: #E55473;;
+}
 .Sale-Up-description{
     color: rgba(39, 39, 39, 0.60);
     font-size: 14px;
@@ -223,9 +226,50 @@ main section {
     margin-bottom: 20px;
 }
 .photho img{
-    width: 250px;
-    height: 270px;
+    width: 267px;
+    height: 285px;
     
+}
+.Latest-Deals-section{
+    background: url("./images/Rectangle\ 9.png") center center;
+    background-size: cover;
+    max-width: 1140px;
+    height: 300px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+.Latest-Deals-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Latest-Deals-titel{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    
+
+
+}
+
+
+.Latest-Deals-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin: 20px 0 ;
+}
+
+input[type="email"]{
+    width: 500px;
+    border: 0;
+    padding: 20px;
+    border-radius: 8px;
+    margin-right: 15px;
+
 }
 
 
